@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c0c0369-3757-4893-8d0b-615669f61b48" name="spangher@endeavour.usc.edu">
+        <fileTransfer accessType="SFTP" host="endeavour.usc.edu" port="22" sshConfigId="a835aa82-a817-44af-be84-003c278ece38" sshConfig="spangher@endeavour.usc.edu:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
