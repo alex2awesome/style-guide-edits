@@ -1,3 +1,20 @@
+"""The point of this file is to parse synthetic outputs to get the synthetic data.
+
+e.g. If the language model outputs:
+
+```This is a list of sentences that violate... 
+
+[
+{'sentence': '...'},
+{'sentence': '...'}
+{'sentence': '...'}
+]
+```
+
+This contains functions to recognize that this is not a well-formed JSON and to use
+another ChatGPT call to correct it.
+"""
+
 import re
 import json
 import ast

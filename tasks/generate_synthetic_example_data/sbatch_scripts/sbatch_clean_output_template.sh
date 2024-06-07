@@ -7,7 +7,9 @@
 #SBATCH --cpus-per-gpu=10
 #SBATCH --partition=isi
 
-python run_open_source_models.py \
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+python $SCRIPT_DIR/../run_synthetic_data_models.py \
   --model_id $1 \
   --prompt_type zeroshot \
   --clean_after_running \

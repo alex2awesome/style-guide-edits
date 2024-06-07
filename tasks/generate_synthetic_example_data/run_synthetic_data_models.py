@@ -1,3 +1,8 @@
+"""
+This is the main script for actually generating the synthetic data. It runs prompts through the model that you specify.
+
+"""
+
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import pandas as pd
